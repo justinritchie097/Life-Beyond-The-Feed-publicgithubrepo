@@ -1,0 +1,52 @@
+.post-meta-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.85rem;
+  color: #64748b;
+  margin-bottom: 8px;
+}
+
+.post-timestamp {
+  font-style: italic;
+}
+
+/* Ensures the image displays in full without cropping */
+.single-post-image-container {
+  width: 100%;
+  background-color: #f8fafc; /* subtle background letterboxing if image ratio differs */
+  border-radius: 12px;
+  overflow: hidden;
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.full-display-image {
+  width: 100%;
+  height: auto;
+  max-height: 600px;
+  object-fit: contain; /* CRITICAL: prevents cropping, shows entire image */
+  display: block;
+}
+
+.post-footer-actions {
+  margin-top: 32px;
+  padding-top: 20px;
+  border-top: 1px solid #e2e8f0;
+}
+
+.upvote-btn {
+  background-color: #ecfdf5;
+  color: #047857;
+  border: 1px solid #a7f3d0;
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.upvote-btn:hover {
+  background-color: #d1fae5;
+}
