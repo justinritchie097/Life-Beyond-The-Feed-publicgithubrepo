@@ -3,9 +3,12 @@ import { useNavigate, Link } from 'react-router-dom';
 import { supabase } from './lib/supabaseClient';
 import './CreatePost.css';
 
-const CreatePost = () => {
+const CreatePost = ({ session }) => {
   const navigate = useNavigate();
-
+  const displayName =
+    session.user.user_metadata?.username ||
+    session.user.email?.split('@')[0] ||
+    'Anonymous';
   const [title, setTitle] = useState('');
   const [content, setContent] = useState('');
   const [imageUrl, setImageUrl] = useState('');
@@ -28,6 +31,8 @@ const CreatePost = () => {
         content: content.trim() || null,
         image_url: imageUrl.trim() || null,
         upvotes: 0, // Starts at 0 upvotes
+        user_id: session.user.id,
+        username: displayName,
       },
     ]);
 
