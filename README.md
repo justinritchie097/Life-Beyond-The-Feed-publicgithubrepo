@@ -2,22 +2,21 @@
 
 A site that gives users a forum to talk about how they are dealing with social media and how life feels without it
 
-<img width="1362" height="677" alt="codepathfinalproject" src="https://github.com/user-attachments/assets/fd98ded7-eed9-47ec-b06c-063a93a90954" />
-
+[Live Demo](coming soon)               [Same site, but hosted on render](https://life-beyond-the-feed.onrender.com/#/)
 
 
 
 ## 📸 Preview
 
-![Project Screenshot](YOUR_SCREENSHOT_URL)
+<img width="1362" height="677" alt="codepathfinalproject" src="https://github.com/user-attachments/assets/fd98ded7-eed9-47ec-b06c-063a93a90954" />
 
----
+
 
 ## ✨ Features
 
-- Feature 1 – Describe an important feature.
-- Feature 2 – Describe another key feature.
-- Feature 3 – Highlight something unique about your project.
+- Feature 1 – A forum for users to talk about how life is without social media, or anything related to that subject matter
+- Feature 2 – Users can post an image in the forum, as well as a title and text
+- Feature 3 – A homepage designed to make users more curious about the possibility of reducing social media 
 - Responsive design for desktop, tablet, and mobile devices.
 
 ---
@@ -27,74 +26,20 @@ A site that gives users a forum to talk about how they are dealing with social m
 - **Frontend:** HTML5, CSS3, JavaScript, React
 - **Backend:**  Supabase 
 - **Database:** PostgreSQL / Supabase (if applicable)
-- **Tools:** Git, GitHub, VS Code
+- **Tools:** Git, GitHub, VS Code, Render
 
 ---
 
-## ⚙️ Installation & Setup
 
-1. Clone the repository:
-
-   ```bash
-   git clone YOUR_REPOSITORY_URL
-   ```
-
-2. Navigate to the project directory:
-
-   ```bash
-   cd YOUR_PROJECT_NAME
-   ```
-
-3. Install dependencies:
-
-   ```bash
-   npm install
-   ```
-
-4. Start the development server:
-
-   ```bash
-   npm run dev
-   ```
-
-5. Open the local URL provided in your terminal.
-
----
-
-## 📂 Project Structure
-
-```text
-project-name/
-├── public/
-├── src/
-│   ├── components/
-│   ├── assets/
-│   ├── App.jsx
-│   └── main.jsx
-├── package.json
-└── README.md
-```
-
-*Adjust this structure to match your actual project.*
-
----
 
 ## 💡 What I Learned
 
-- Describe the technical skills you developed.
-- Explain challenges you encountered and how you solved them.
-- Highlight new concepts or technologies you learned.
-
----
+I learned more about databases and how to create forum like sites with this project.
 
 ## 🔮 Future Improvements
 
-- [ ] Add additional features.
-- [ ] Improve accessibility.
-- [ ] Optimize performance.
-- [ ] Expand mobile responsiveness.
-
----
+- [ ] A customized email template for the user to sign up
+- [ ] A way to reset password if user forgets it
 
 ## 👨‍💻 Author
 
