@@ -1,99 +1,111 @@
-# Web Development Final Project - Life Beyond The Feed
+# 🚀 Life Beyond The Feed website
 
-Submitted by: Justin Ritchie
+A site that gives users a forum to talk about how they are dealing with social media and how life feels without it
 
-This web app: A community of like minded individuals who share why they have decided to stay off social media and how they did it.
+<img width="1362" height="677" alt="codepathfinalproject" src="https://github.com/user-attachments/assets/fd98ded7-eed9-47ec-b06c-063a93a90954" />
 
-Time spent: 7 hours spent in total
 
-## Required Features
 
-The following **required** functionality is completed:
 
-- [x] **Web app includes a create form that allows the user to create posts**
-  - Form requires users to add a post title
-  - Forms should have the _option_ for users to add:
-    - additional textual content
-    - an image added as an external image URL
-- [x] **Web app includes a home feed displaying previously created posts**
-  - Web app must include home feed displaying previously created posts
-  - By default, each post on the posts feed should show only the post's:
-    - creation time
-    - title
-    - upvotes count
-  - Clicking on a post should direct the user to a new page for the selected post
-- [x] **Users can view posts in different ways**
-  - Users can sort posts by either:
-    - creation time
-    - upvotes count
-  - Users can search for posts by title
-- [x] **Users can interact with each post in different ways**
-  - The app includes a separate post page for each created post when clicked, where any additional information is shown, including:
-    - content
-    - image
-    - comments
-  - Users can leave comments underneath a post on the post page
-  - Each post includes an upvote button on the post page.
-    - Each click increases the post's upvotes count by one
-    - Users can upvote any post any number of times
+## 📸 Preview
 
-- [x] **A post that a user previously created can be edited or deleted from its post pages**
-  - After a user creates a new post, they can go back and edit the post
-  - A previously created post can be deleted from its post page
+![Project Screenshot](YOUR_SCREENSHOT_URL)
 
-The following **optional** features are implemented:
+---
 
-- [x] Web app implements pseudo-authentication
-  - Users can only edit and delete posts or delete comments by entering the secret key, which is set by the user during post creation
-  - **or** upon launching the web app, the user is assigned a random user ID. It will be associated with all posts and comments that they make and displayed on them
-  - For both options, only the original user author of a post can update or delete it
-- [ ] Users can repost a previous post by referencing its post ID. On the post page of the new post
-  - Users can repost a previous post by referencing its post ID
-  - On the post page of the new post, the referenced post is displayed and linked, creating a thread
-- [ ] Users can customize the interface
-  - e.g., selecting the color scheme or showing the content and image of each post on the home feed
-- [ ] Users can add more characterics to their posts
-  - Users can share and view web videos
-  - Users can set flags such as "Question" or "Opinion" while creating a post
-  - Users can filter posts by flags on the home feed
-  - Users can upload images directly from their local machine as an image file
-- [ ] Web app displays a loading animation whenever data is being fetched
+## ✨ Features
 
-The following **additional** features are implemented:
+- Feature 1 – Describe an important feature.
+- Feature 2 – Describe another key feature.
+- Feature 3 – Highlight something unique about your project.
+- Responsive design for desktop, tablet, and mobile devices.
 
-- [ ] List anything else that you added to improve the site's functionality!
+---
 
-## Video Walkthrough
+## 🛠️ Technologies Used
 
-Here's a walkthrough of implemented user stories:
+- **Frontend:** HTML5, CSS3, JavaScript, React
+- **Backend:**  Supabase 
+- **Database:** PostgreSQL / Supabase (if applicable)
+- **Tools:** Git, GitHub, VS Code
 
-<img src='https://imgur.com/a/LnpvXkx' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+---
 
-<!-- Replace this with whatever GIF tool you used! -->
+## ⚙️ Installation & Setup
 
-GIF created with
+1. Clone the repository:
 
-<!-- Recommended tools:
-[Kap](https://getkap.co/) for macOS
-[ScreenToGif](https://www.screentogif.com/) for Windows
-[peek](https://github.com/phw/peek) for Linux. -->
+   ```bash
+   git clone YOUR_REPOSITORY_URL
+   ```
 
-## Notes
+2. Navigate to the project directory:
 
-I had fun while making this so far. I had practice from another project I did, so making this one was somewhat straightforward because of that.
+   ```bash
+   cd YOUR_PROJECT_NAME
+   ```
 
-## License
+3. Install dependencies:
 
-    Copyright 2026 Justin Ritchie
+   ```bash
+   npm install
+   ```
 
-    Licensed under the Apache License, Version 2.0 (the "License");
-    you may not use this file except in compliance with the License.
-    You may obtain a copy of the License at
+4. Start the development server:
 
-        http://www.apache.org/licenses/LICENSE-2.0
+   ```bash
+   npm run dev
+   ```
 
-    Unless required by applicable law or agreed to in writing, software
-    distributed under the License is distributed on an "AS IS" BASIS,
-    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-    See the License for the specific language governing permissions and
-    limitations under the License.
+5. Open the local URL provided in your terminal.
+
+---
+
+## 📂 Project Structure
+
+```text
+project-name/
+├── public/
+├── src/
+│   ├── components/
+│   ├── assets/
+│   ├── App.jsx
+│   └── main.jsx
+├── package.json
+└── README.md
+```
+
+*Adjust this structure to match your actual project.*
+
+---
+
+## 💡 What I Learned
+
+- Describe the technical skills you developed.
+- Explain challenges you encountered and how you solved them.
+- Highlight new concepts or technologies you learned.
+
+---
+
+## 🔮 Future Improvements
+
+- [ ] Add additional features.
+- [ ] Improve accessibility.
+- [ ] Optimize performance.
+- [ ] Expand mobile responsiveness.
+
+---
+
+## 👨‍💻 Author
+
+Justin Ritchie
+
+- GitHub: [@justinritchie097](https://github.com/justinritchie097)
+- Portfolio: [Visit My Portfolio](https://justinritchie097.github.io/Portfolio-website/)
+- LinkedIn: [Connect with me](https://www.linkedin.com/in/justin-ritchie-902424289/)
+
+---
+
+## 📄 License
+
+This project is licensed under the GNU License – see the LICENSE file for details.
