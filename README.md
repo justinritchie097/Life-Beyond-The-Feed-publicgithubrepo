@@ -2,7 +2,7 @@
 
 A site that gives users a forum to talk about how they are dealing with social media and how life feels without it
 
-[Live Demo](coming soon)               [Same site, but hosted on render](https://life-beyond-the-feed.onrender.com/#/)
+[Live Demo]( https://justinritchie097.github.io/Life-Beyond-The-Feed-publicgithubrepo/)               [Same site, but hosted on render](https://life-beyond-the-feed.onrender.com/#/)
 
 
 
@@ -25,7 +25,7 @@ A site that gives users a forum to talk about how they are dealing with social m
 
 - **Frontend:** HTML5, CSS3, JavaScript, React
 - **Backend:**  Supabase 
-- **Database:** PostgreSQL / Supabase (if applicable)
+- **Database:** PostgreSQL / Supabase
 - **Tools:** Git, GitHub, VS Code, Render
 
 ---
